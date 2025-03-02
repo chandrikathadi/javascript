@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class MyCalci {
+            constructor() {
+                this.a = 5;
+                this.b = 3;
+            }
+
+            disVals = () => {
+                console.log("value of a =", this.a, "b =", this.b);
+            }
+        }
+
+        let mc = new MyCalci();  
+        mc.disVals();  
+    </script>
+</body>
+</html>
