@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fib(n)
+        {
+            if(n<=1)
+            return n;
+            else
+                return fib(n-1)+fib(n-2);
+        }
+        x=parseInt(prompt("enter a number :"));
+        for(i=0;i<x;i++)
+        {
+            console.log(fib(i));
+        }
+
+    </script>
+</body>
+</html>
